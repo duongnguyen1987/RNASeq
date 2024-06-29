@@ -6,7 +6,7 @@
 #SBATCH --time=1:30:00
 #SBATCH --mem=64G
 #SBATCH --nodes=1
-#SBATCH --ntasks=32
+#SBATCH --ntasks=8
 #SBATCH --account=OD-221325
 #SBATCH --array=1-275
 
