@@ -9,9 +9,8 @@
 
 # Define input and output directories
 input_dir="./"
-
-mkdir -p "$output_dir"
 merged_dir="../run2_analysis/merged"
+
 mkdir -p "$merged_dir"
 
 # Step 1: Group files by sample name and merge lanes
