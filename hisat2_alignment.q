@@ -20,6 +20,9 @@ OUT_DIR="${WORK_DIR}/mapped"
 SPLICE_SITE_FILE="${WORK_DIR}/splicesites.txt"
 GENOME_INDEX="${WORK_DIR}/OT3098_v2_genome"
 
+# Need to crete index for reference first
+# hisat2-build -p 64 ../reference/OT3098_v2.fasta ./OT3098_v2_genome # This is prefer for hisat2
+
 # Create output directory if it doesn't exist
 mkdir -p "${OUT_DIR}"
 
