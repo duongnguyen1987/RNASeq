@@ -23,9 +23,11 @@ This repository contains scripts and resources for RNASeq analysis.
 - `make_reported_mapping_rate_table.q`: This was to make a table to report mapping rate from hisat2
 - `rename_files_array_job.q`: This was to change the name of the sorted bam files. 
 - `samtools_index_array_job.q`: This was to csi index all the sorted bam files so that it could be viewed in IGV app
+- `merge_mock_bam_array_job.q`: This was to merge bio-replicates of mock samples from same genotype into a single bam file
+- `merge_infected_bam_array_job.q`: This was to merge bio-replicates of infected samples from same genotype into a single bam file
+- `varian_calling_bcf_bamlist_array_job.q`: This was to call varians from bam files of all genotypes.
+- `VCF_QC_subset.q`: This was to create a random subset of variants resulted of the bcf calling and conduct QC on that.
 
-
-- `results/`: Directory containing output files.
 
 ## Requirements
 
@@ -38,4 +40,8 @@ Instructions on how to run the scripts, including any necessary commands or para
 
 ## License
 
-Information ab
+Information about the project's license.
+
+## Contact
+
+Contact information for project maintainers.
